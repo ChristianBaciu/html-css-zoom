@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #222222;
+    background-color: black;
 }
 
 header{
@@ -14,6 +14,7 @@ header{
     justify-content: flex-end;
     gap: 10px;
     padding: 10px;
+
 }
 
 header button{
@@ -21,6 +22,7 @@ header button{
     padding: 5px;
     border-radius: 5px;
     border: none;
+
 }
 
 .container{
@@ -29,10 +31,10 @@ header button{
 
 }
 
-
 .contatto{
     position: relative;
     display: inline-block;
+    
 }
 
 .pinco{
@@ -40,7 +42,29 @@ header button{
     bottom: 5px;
     padding: 5px;
     color: white;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.25);
+
+}
+
+footer .foot-container{
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+#opzioni{
 
 }
 
