@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #222222;
+}
+
 header{
     background-color: red;
     display: flex;
@@ -12,29 +16,31 @@ header{
     padding: 10px;
 }
 
-.bottoni{
+header button{
     background-color: #4a4a4a;
     padding: 5px;
     border-radius: 5px;
-    borde
+    border: none;
 }
 
 .container{
-    width: calc(100% - 200px);
+    padding: 10px;
     margin: 0 auto;
-    background-color: orange;
+
 }
 
-/*
+
 .contatto{
-    border: 1px soldi red;
-    width: 300px;
-    height: 200px;
     position: relative;
     display: inline-block;
 }
 
 .pinco{
     position: absolute;
-    top: 0;
-}*/ 
+    bottom: 5px;
+    padding: 5px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
